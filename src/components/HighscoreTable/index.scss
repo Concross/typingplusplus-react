@@ -1,0 +1,31 @@
+.highscore-table {
+    display: flex;
+}
+
+table {
+    border: 1px solid white;
+    flex: 0 1 400px;
+    margin: 20px auto;
+    background: #17a1ab;
+    color: white;
+    border-radius: 5px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: 'robotic', sans-serif;
+
+    th {
+        height: 60px;
+        line-height: 60px;
+        border: 1px solid white;
+        font-size: 16px;
+    }
+
+    td {
+        font-size: 16px;
+        height: 30px;
+        text-align: left;
+        line-height: 30px;
+        padding-left: 25px;
+        border: 1px solid white;
+    }
+}
