@@ -2,7 +2,7 @@ import React, { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "../../components/Header";
 import Home from "../Home";
-import "./App.css";
+import "./App.scss";
 
 const Highscore = lazy(() => import("../Highscore"));
 
