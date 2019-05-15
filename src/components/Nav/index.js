@@ -5,7 +5,7 @@ import "./index.scss";
 const Nav = () => {
   return (
     <nav className="site-nav">
-      <ul>
+      <ul className="container">
         <li>
           <Link to="/">Home</Link>
         </li>

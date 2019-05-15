@@ -1,5 +1,30 @@
 .site-nav {
-    ul {
-        color: white;
-    }
+  display: flex;
+  margin-left: 5rem;
+  flex: 2 2 400px;
+  font-size: 1.25rem;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px;
+  }
+
+  li {
+    text-transform: uppercase;
+    margin: 20px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.container {
+  display: flex;
 }
