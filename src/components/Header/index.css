@@ -1,6 +1,8 @@
 .site-header {
   background: #17a1ab;
+  display: flex;
   height: 70px;
   margin-top: 30px;
   min-width: 100%;
+  padding-left: 20px;
 }
