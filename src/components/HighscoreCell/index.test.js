@@ -7,7 +7,7 @@ Enzyme.configure({ adapter: new Adapter() });
 
 describe('HighscoreCell component', () => {
     test('should render without crashing', () => {
-        const wrapper = shallow(<HighscoreCell />);
+        const wrapper = shallow(<HighscoreCell data="Connor" />);
         expect(wrapper.exists()).toBe(true);
     });
 });

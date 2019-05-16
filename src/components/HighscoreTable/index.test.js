@@ -7,7 +7,9 @@ Enzyme.configure({ adapter: new Adapter() });
 
 describe('HighscoreTable component', () => {
     test('should render without crashing', () => {
-        const wrapper = shallow(<HighscoreTable />);
+        const wrapper = shallow(
+            <HighscoreTable records={[{ name: 'Connor', score: 999 }]} />
+        );
         expect(wrapper.exists()).toBe(true);
     });
 });
