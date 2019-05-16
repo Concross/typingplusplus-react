@@ -1,5 +1,5 @@
 import levelOne from './levelOne';
 
 export default {
-    levelOne
+    1: levelOne
 };
